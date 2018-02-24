@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		27036F6598AD76DA5E98D4DB /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D694D53D87618F35EF3B069 /* Pods_breakpoint.framework */; };
+		F608834F2041177000391473 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F608834E2041177000391473 /* Message.swift */; };
 		F611C1D8203E5AD500670D43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611C1D7203E5AD500670D43 /* AppDelegate.swift */; };
 		F611C1DA203E5AD500670D43 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611C1D9203E5AD500670D43 /* FeedVC.swift */; };
 		F611C1DC203E5AD500670D43 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F611C1DB203E5AD500670D43 /* GroupsVC.swift */; };
@@ -31,6 +32,7 @@
 		3D694D53D87618F35EF3B069 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD86A5D495558FBAE743F8C5 /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 		D6508EC475B8504B526815E1 /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
+		F608834E2041177000391473 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		F611C1D4203E5AD500670D43 /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F611C1D7203E5AD500670D43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F611C1D9203E5AD500670D43 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		F611C1ED203E5B9D00670D43 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F608834E2041177000391473 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				F611C1DA203E5AD500670D43 /* FeedVC.swift in Sources */,
 				F660754C203E6D59005035C5 /* InsetTextField.swift in Sources */,
 				F6607546203E6131005035C5 /* DataService.swift in Sources */,
+				F608834F2041177000391473 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
