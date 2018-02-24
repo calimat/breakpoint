@@ -22,6 +22,7 @@
 		F660754E203E7160005035C5 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F660754D203E7160005035C5 /* ShadowView.swift */; };
 		F6607550203E7299005035C5 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F660754F203E7299005035C5 /* AuthService.swift */; };
 		F6607552203FC4C8005035C5 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6607551203FC4C8005035C5 /* MeVC.swift */; };
+		F6607554203FCAA4005035C5 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6607553203FCAA4005035C5 /* CreatePostVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		F660754D203E7160005035C5 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		F660754F203E7299005035C5 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		F6607551203FC4C8005035C5 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		F6607553203FCAA4005035C5 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				F6607547203E6CCF005035C5 /* AuthVC.swift */,
 				F6607549203E6D07005035C5 /* LoginVC.swift */,
 				F6607551203FC4C8005035C5 /* MeVC.swift */,
+				F6607553203FCAA4005035C5 /* CreatePostVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				F6607550203E7299005035C5 /* AuthService.swift in Sources */,
 				F611C1D8203E5AD500670D43 /* AppDelegate.swift in Sources */,
 				F660754E203E7160005035C5 /* ShadowView.swift in Sources */,
+				F6607554203FCAA4005035C5 /* CreatePostVC.swift in Sources */,
 				F611C1DA203E5AD500670D43 /* FeedVC.swift in Sources */,
 				F660754C203E6D59005035C5 /* InsetTextField.swift in Sources */,
 				F6607546203E6131005035C5 /* DataService.swift in Sources */,
