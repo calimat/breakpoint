@@ -27,6 +27,7 @@
 		F6607552203FC4C8005035C5 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6607551203FC4C8005035C5 /* MeVC.swift */; };
 		F6607554203FCAA4005035C5 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6607553203FCAA4005035C5 /* CreatePostVC.swift */; };
 		F67D1B1E2041DDFF008CED52 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D1B1D2041DDFF008CED52 /* CreateGroupsVC.swift */; };
+		F6CAAB8F2041E5F600ED3062 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAAB8E2041E5F600ED3062 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		F6607551203FC4C8005035C5 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		F6607553203FCAA4005035C5 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		F67D1B1D2041DDFF008CED52 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
+		F6CAAB8E2041E5F600ED3062 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				F660754B203E6D59005035C5 /* InsetTextField.swift */,
 				F660754D203E7160005035C5 /* ShadowView.swift */,
 				F621229F2041144800601F27 /* FeedCell.swift */,
+				F6CAAB8E2041E5F600ED3062 /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				F660754A203E6D07005035C5 /* LoginVC.swift in Sources */,
 				F6607550203E7299005035C5 /* AuthService.swift in Sources */,
 				F67D1B1E2041DDFF008CED52 /* CreateGroupsVC.swift in Sources */,
+				F6CAAB8F2041E5F600ED3062 /* UserCell.swift in Sources */,
 				F611C1D8203E5AD500670D43 /* AppDelegate.swift in Sources */,
 				F660754E203E7160005035C5 /* ShadowView.swift in Sources */,
 				F6607554203FCAA4005035C5 /* CreatePostVC.swift in Sources */,
