@@ -26,6 +26,7 @@
 		F6607550203E7299005035C5 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F660754F203E7299005035C5 /* AuthService.swift */; };
 		F6607552203FC4C8005035C5 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6607551203FC4C8005035C5 /* MeVC.swift */; };
 		F6607554203FCAA4005035C5 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6607553203FCAA4005035C5 /* CreatePostVC.swift */; };
+		F67D1B1E2041DDFF008CED52 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D1B1D2041DDFF008CED52 /* CreateGroupsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		F660754F203E7299005035C5 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		F6607551203FC4C8005035C5 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		F6607553203FCAA4005035C5 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		F67D1B1D2041DDFF008CED52 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				F6607549203E6D07005035C5 /* LoginVC.swift */,
 				F6607551203FC4C8005035C5 /* MeVC.swift */,
 				F6607553203FCAA4005035C5 /* CreatePostVC.swift */,
+				F67D1B1D2041DDFF008CED52 /* CreateGroupsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				F611C1DC203E5AD500670D43 /* GroupsVC.swift in Sources */,
 				F660754A203E6D07005035C5 /* LoginVC.swift in Sources */,
 				F6607550203E7299005035C5 /* AuthService.swift in Sources */,
+				F67D1B1E2041DDFF008CED52 /* CreateGroupsVC.swift in Sources */,
 				F611C1D8203E5AD500670D43 /* AppDelegate.swift in Sources */,
 				F660754E203E7160005035C5 /* ShadowView.swift in Sources */,
 				F6607554203FCAA4005035C5 /* CreatePostVC.swift in Sources */,
