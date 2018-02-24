@@ -614,7 +614,7 @@
                         <viewLayoutGuide key="safeArea" id="4Fj-tf-whr"/>
                     </view>
                     <connections>
-                        <outlet property="emailLbl" destination="lhm-yP-oil" id="mLm-YZ-jQm"/>
+                        <outlet property="emailLbl" destination="wYC-sX-lar" id="Pnk-ul-PAU"/>
                         <outlet property="profileImage" destination="opo-S4-W2o" id="DyB-B6-q0q"/>
                         <outlet property="sendBtn" destination="iLI-AK-mgW" id="g1G-um-d1a"/>
                         <outlet property="textView" destination="L12-OF-RVu" id="pDn-kG-8K0"/>
