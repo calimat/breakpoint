@@ -15,6 +15,7 @@
 		F611C1E1203E5AD500670D43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F611C1E0203E5AD500670D43 /* Assets.xcassets */; };
 		F611C1E4203E5AD500670D43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F611C1E2203E5AD500670D43 /* LaunchScreen.storyboard */; };
 		F611C1F1203E5D3500670D43 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F611C1F0203E5D3400670D43 /* GoogleService-Info.plist */; };
+		F621229E20410F8700601F27 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F621229D20410F8700601F27 /* UIViewExt.swift */; };
 		F6607546203E6131005035C5 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6607545203E6131005035C5 /* DataService.swift */; };
 		F6607548203E6CCF005035C5 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6607547203E6CCF005035C5 /* AuthVC.swift */; };
 		F660754A203E6D07005035C5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6607549203E6D07005035C5 /* LoginVC.swift */; };
@@ -38,6 +39,7 @@
 		F611C1E3203E5AD500670D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F611C1E5203E5AD500670D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F611C1F0203E5D3400670D43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F621229D20410F8700601F27 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		F6607545203E6131005035C5 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		F6607547203E6CCF005035C5 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		F6607549203E6D07005035C5 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		F611C1EE203E5BB300670D43 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F621229D20410F8700601F27 /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F621229E20410F8700601F27 /* UIViewExt.swift in Sources */,
 				F6607552203FC4C8005035C5 /* MeVC.swift in Sources */,
 				F6607548203E6CCF005035C5 /* AuthVC.swift in Sources */,
 				F611C1DC203E5AD500670D43 /* GroupsVC.swift in Sources */,
