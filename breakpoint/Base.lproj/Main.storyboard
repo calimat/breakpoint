@@ -257,7 +257,7 @@
         <!--Group FeedVC-->
         <scene sceneID="UdH-u9-0c9">
             <objects>
-                <viewController id="93d-pg-2QU" customClass="GroupFeedVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GroupFeedVC" id="93d-pg-2QU" customClass="GroupFeedVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iae-V3-Rtm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -265,7 +265,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXP-9x-gtY">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="_groupTitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nl7-Hc-ngC">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_groupTitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nl7-Hc-ngC">
                                         <rect key="frame" x="87.5" y="25" width="200" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="OLQ-E4-gSs"/>
@@ -275,7 +275,7 @@
                                         <color key="textColor" red="0.56078431370000004" green="0.81176470590000005" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hrh-Gj-OLn">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hrh-Gj-OLn">
                                         <rect key="frame" x="20" y="24.5" width="12" height="22"/>
                                         <state key="normal" image="backIcon"/>
                                         <connections>
@@ -287,6 +287,7 @@
                                 <constraints>
                                     <constraint firstItem="Nl7-Hc-ngC" firstAttribute="centerY" secondItem="Hrh-Gj-OLn" secondAttribute="centerY" id="5Wk-CG-uYe"/>
                                     <constraint firstItem="Hrh-Gj-OLn" firstAttribute="leading" secondItem="xXP-9x-gtY" secondAttribute="leading" constant="20" id="6uz-rg-nZh"/>
+                                    <constraint firstItem="Hrh-Gj-OLn" firstAttribute="top" secondItem="xXP-9x-gtY" secondAttribute="top" constant="24.5" id="DYa-up-eH0"/>
                                     <constraint firstItem="Nl7-Hc-ngC" firstAttribute="centerX" secondItem="xXP-9x-gtY" secondAttribute="centerX" id="Zlq-6u-pWh"/>
                                     <constraint firstAttribute="height" constant="70" id="fWN-df-Kee"/>
                                 </constraints>
